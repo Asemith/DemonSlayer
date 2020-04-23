@@ -1,6 +1,8 @@
  body{
  	margin: 0;
- 	font-family: Comic Sans MS;
+ 	font-family: 'Baloo Paaji 2', cursive;
+ 	font-size: 20px;
+ 	background-color: #F4CACA;
  }
 
  header{
@@ -10,17 +12,13 @@
  	padding-bottom: 7px;
  }
 
- h2{
- 	font-family: 'Caveat', cursive;
-    font-size: 30px;
-
-
- }
  header p{
  	font-family: 'Caveat', cursive;
  	font-size: 35px;
  	margin-top: 1px;
  }
+
+ /* writing a comment*/
 
  header h1{
  	color: #6D2E2E;
@@ -34,13 +32,14 @@
  header img{
  	border-radius: 150px;
  	width: 270px;
- 	border: 7px solid #6D2E2E;
+ 	border: 15px solid #6D2E2E;
  }
 
 
 main{
 	max-width: 800px;
 	margin: 0 auto;
+	padding: 10px;
 
 }
 
@@ -48,9 +47,36 @@ main img{
 	max-width: 100%;
 }
 
-p{font-size: 20px;}
 
 h2{
-	font-size: 25px;
+	font-size: 35px;
 	color: #5B3333;
+	font-family: 'Caveat', cursive;
+	margin: 15px 0 10px;
+}
+
+a{
+	color: #B46F6F;
+}
+a:hover{
+	color: #33525B;
+}
+
+footer{
+	background-color: #B46F6F;
+ 	text-align: center;
+ 	color: #5B3333;
+ 	padding: 50px;
+}
+
+
+footer p{
+	margin: 0;
+}
+
+p.caption{
+	color: #887B7B;
+	margin-top: 0px;
+	margin-bottom: 1px;
+	font-style: italic;
 }
